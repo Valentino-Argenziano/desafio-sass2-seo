@@ -1,0 +1,60 @@
+@import "../variables/variables";
+@import "../sass2/extends";
+@import "../sass2/mixins";
+
+/*Estilo seccion corales*/
+
+#nuestros-corales{
+    background-color: $fondo-de-color-2;
+    .galeria-h2{
+        margin-top: 0px;
+        font-size: 3.1em;
+        background-color: $fondo-de-color-2;
+        font-family: 'Boogaloo', cursive;
+        color: rgb(245,245,245);
+        text-align: center;
+        animation-name: animacion-3;
+        animation-duration: 2s;
+        animation-iteration-count: ease-in;
+        animation-delay: 2s;
+    }
+}
+
+
+@keyframes animacion-3{
+    0%{
+        color: blueviolet;
+        font-size: 60px;
+    }
+}
+
+.img_1{
+    @include flexibilizar
+}
+.img_2{
+    @include flexibilizar
+}
+.img_3{
+    @include flexibilizar
+}
+.img_4{
+    @include flexibilizar
+}
+.img_5{
+    @include flexibilizar
+}
+.img_6{
+    @include flexibilizar
+}
+.img_7{
+    @include flexibilizar
+}
+.img_8{
+    @include flexibilizar
+}
+.img_9{
+    @include flexibilizar
+}
+.img_10{
+    @include flexibilizar
+}

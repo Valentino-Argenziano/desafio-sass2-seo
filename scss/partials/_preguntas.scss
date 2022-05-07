@@ -1,0 +1,51 @@
+@import "../variables/variables";
+@import "../sass2/extends";
+@import "../sass2/mixins";
+
+/*Estilo seccion preguntas*/
+
+#preguntas-pi{
+    background-color: rgb(30,30,30);
+    color: white;
+    text-align: center;
+    .contenedor-preg{
+        padding: 62px 12px;
+        max-width: 1400px;
+        margin: auto;
+        h2{
+            margin-top: 0;
+            font-size: 3.1em;
+            font-family: 'Boogaloo', cursive;
+            animation-name: animacion-2;
+            animation-duration: 2s;
+            animation-iteration-count: ease-in;
+            animation-delay: 2s;
+        }
+    }
+    
+}
+
+@keyframes animacion-2{
+    0%{
+        color: red;
+        font-size: 60px;
+    }
+}
+
+
+.preguntas-p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8em;
+}
+
+#preguntas-pi p{
+    justify-content: space-between;
+}
+
+/*Estilo de las respuestas*/
+
+.respuestas-p{
+    color: blueviolet;
+    font-size: 1.8em;
+}
+

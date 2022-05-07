@@ -1,0 +1,11 @@
+@import "../variables/variables";
+
+@mixin  flexibilizar {
+    width: $size-img;
+    height: $size-img;
+    display: flex;
+    align-items: $alinear-al-centro;
+    justify-content: $alinear-al-centro;
+    border-radius: 4px;
+    transition: 0.3s ease-in-out;
+}
