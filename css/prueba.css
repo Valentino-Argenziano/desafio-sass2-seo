@@ -32,7 +32,6 @@
     text-decoration: none;
     color: black; }
 
-
 h1 {
   font-size: 3.5em; }
 
@@ -69,7 +68,7 @@ h1 {
 #hero button {
   font-size: 1.75em; }
 
-
+/*Estilo del Footer*/
 /*Media Querie*/
 @media screen and (max-width: 1201px) {
   form {
@@ -173,7 +172,6 @@ h1 {
   #somos-pireef {
     justify-content: normal; } }
 
-
 /*Imagen de fondo del formulario*/
 #fondo-form {
   background-image: url(../multimedia/oceano2.jpg);
@@ -230,7 +228,6 @@ textarea {
 @media screen and (max-width: 515px) {
   form {
     width: 80%; } }
-
 
 /*Estilo seccion corales*/
 #nuestros-corales {
@@ -342,7 +339,6 @@ textarea {
   border-radius: 4px;
   transition: 0.3s ease-in-out; }
 
-
 /*Estilo Seccion Nosotros*/
 #somos-pireef {
   background-image: url(../multimedia/caracteristicas.jpg);
@@ -403,8 +399,6 @@ textarea {
   .contenedor {
     width: 100%; } }
 
-
-
 /*Estilo seccion preguntas*/
 #preguntas-pi {
   background-color: #1e1e1e;
@@ -439,7 +433,6 @@ textarea {
 .respuestas-p {
   color: blueviolet;
   font-size: 1.8em; }
-
 
 /*Estilos seccion productos*/
 #nuestros-productos {
