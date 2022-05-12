@@ -50,8 +50,13 @@ footer{
     @extend .footer;
 }
 
+
 button{
     @extend .button;
+}
+
+button:hover{
+    background-color: rgb(99, 25, 168);
 }
 
 /*Media Querie*/

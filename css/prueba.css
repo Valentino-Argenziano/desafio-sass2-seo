@@ -9,6 +9,7 @@
     align-items: flex-end; }
   .footer p, footer p {
     margin: 0;
+    margin-right: 200px;
     color: black;
     padding: 14px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -69,6 +70,9 @@ h1 {
   font-size: 1.75em; }
 
 /*Estilo del Footer*/
+button:hover {
+  background-color: #6319a8; }
+
 /*Media Querie*/
 @media screen and (max-width: 1201px) {
   form {
